@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Online Page</title>
+  <link rel="stylesheet" href="./orderStyle.css" />
+</head>
+<body>
+
+  <div class="topContainer">
+    <div class="nav-container">
+      <div class="navWrapper">
+        <nav>
+          <div class="logo">
+          
+            <h1>Gary Blues Dinner</h1>
+          </div>
+          
+        </nav>
+      </div>
+    </div>
+    <header>
+      <div class="header-container">
+        <div class="headWrapper">
+          <form action="/submit-order" method="post">
+            <!-- Form groups for each menu item -->
+            <div class="bigGrayContainer">
+              <input type="checkbox" id="bigGray" name="bigGray" />
+              <label for="bigGray">Big Gray</label>
+              <input type="number" id="bigGrayQuantity" name="bigGrayQuantity" />
+              <label for="bigGrayQuantity">Quantity</label>
+            </div>
+            <div class="tastersContainer">
+              <input type="checkbox" id="taster" name="taster" />
+              <label for="taster">Taster</label>
+              <input type="number" id="tasterQuantity" name="tasterQuantity" />
+              <label for="tasterQuantity">Quantity</label>
+            </div>
+            <div class="soupContainer">
+              <input type="checkbox" id="soup" name="soup" />
+              <label for="soup">Soup</label>
+              <input type="number" id="soupQuantity" name="soupQuantity" />
+              <label for="soupQuantity">Quantity</label>
+            </div>
+            <div class="poutineContainer">
+              <input type="checkbox" id="poutine" name="poutine" />
+              <label for="poutine">Poutine</label>
+              <input type="number" id="poutineQuantity" name="poutineQuantity" />
+              <label for="poutineQuantity">Quantity</label>
+            </div>
+            <div class="bucketContainer">
+              <input type="checkbox" id="bucket" name="bucket" />
+              <label for="bucket">Bucket o' Chicken</label>
+              <input type="number" id="bucketQuantity" name="bucketQuantity" />
+              <label for="bucketQuantity">Quantity</label>
+            </div>
+            <div class="saladContainer">
+              <input type="checkbox" id="salad" name="salad" />
+              <label for="salad">Salad</label>
+              <input type="number" id="saladQuantity" name="saladQuantity" />
+              <label for="saladQuantity">Quantity</label>
+            </div>
+            <!-- Additional form groups for other items... -->
+            <div class="form-group">
+              <input type="text" id="name" name="name" /><br />
+              <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="address" name="address" /><br />
+              <label for="address">Address</label><br />
+            </div>
+            <div class="form-group">
+              <input type="text" id="card" name="card" /><br />
+              <label for="card">Card</label>
+            </div>
+            <br />
+            <button type="submit" class="submit-btn">Submit</button>
+          </form>
+        </div>
+        <!-- Closing wrapper div inside header-container -->
+      </div>
+      <!-- Closing header-container div -->
+    </header>
+  </div>
+  <!-- Closing topContainer div -->
+
+  <script src="./orderJavascript.js"></script>
+</body>
+</html>
