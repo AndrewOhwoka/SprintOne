@@ -51,16 +51,112 @@ header{
     max-width: 1000px;/* Adjust based on your preference */
     height: 806px;
     margin: 0 auto;  /*center the container*/
-    
     display: flex; 
     flex-direction: column;
-   
-    
-  
-   
+
   }
+
+  .bigGrayContainer{
+    margin-top: 76px;
+    margin-bottom: 30px;
   
- 
+  }
+  #bigGray {
+    width: 30px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 20px;
+    
+  }
+  #bigGrayQuantity {
+    width: 80px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 270px;
+  }
+  .tastersContainer{
+    margin-bottom: 30px;
+  }
+  #taster {
+    width: 30px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 20px;
+    
+  }
+  #tasterQuantity {
+    width: 80px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 295px;
+  }
+  .soupContainer{
+    margin-bottom: 30px;
+  }
+  #soup {
+    width: 30px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 20px;
+    
+  }
+  #soupQuantity {
+    width: 80px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 300px;
+  }
+  .poutineContainer{
+    margin-bottom: 30px;
+  }
+  #poutine {
+    width: 30px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 20px;
+    
+  }
+  #poutineQuantity {
+    width: 80px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 275px;
+  }
+
+  .bucketContainer{
+    margin-bottom: 30px;
+  }
+  #bucket {
+    width: 30px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 20px;
+    
+  }
+  #bucketQuantity {
+    width: 80px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 160px;
+  }
+
+  .saladContainer{
+    margin-bottom: 30px;
+  }
+  #salad {
+    width: 30px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 20px;
+    
+  }
+  #saladQuantity {
+    width: 80px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 300px;
+  }
+
 
   
 
