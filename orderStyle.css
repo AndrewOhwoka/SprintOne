@@ -74,9 +74,12 @@ header{
     /* font-size: 20px; Or any other value */
     margin-left: 270px;
   }
-  .tastersContainer{
+  .otherContainer{
     margin-bottom: 30px;
   }
+  /* .tastersContainer{
+    margin-bottom: 30px;
+  } */
   #taster {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -90,9 +93,9 @@ header{
     /* font-size: 20px; Or any other value */
     margin-left: 295px;
   }
-  .soupContainer{
+  /* .soupContainer{
     margin-bottom: 30px;
-  }
+  } */
   #soup {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -106,9 +109,9 @@ header{
     /* font-size: 20px; Or any other value */
     margin-left: 300px;
   }
-  .poutineContainer{
+  /* .poutineContainer{
     margin-bottom: 30px;
-  }
+  } */
   #poutine {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -123,9 +126,9 @@ header{
     margin-left: 275px;
   }
 
-  .bucketContainer{
+  /* .bucketContainer{
     margin-bottom: 30px;
-  }
+  } */
   #bucket {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -140,9 +143,9 @@ header{
     margin-left: 160px;
   }
 
-  .saladContainer{
+  /* .saladContainer{
     margin-bottom: 30px;
-  }
+  } */
   #salad {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -156,7 +159,26 @@ header{
     /* font-size: 20px; Or any other value */
     margin-left: 300px;
   }
-
-
+  .form-group {
+    margin-left: 250px;
+  }
+  #name {
+    width: 180px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 20px;
+  }
+  #address {
+    width: 180px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 20px;
+  }
+  #card {
+    width: 180px; /* Or any other value */
+    height: 30px; /* Or any other value */
+    /* font-size: 20px; Or any other value */
+    margin-left: 20px;
+  }
   
 
