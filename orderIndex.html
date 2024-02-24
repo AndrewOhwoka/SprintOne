@@ -12,24 +12,26 @@
     <div class="nav-container">
       <div class="navWrapper">
         <nav>
-          <div class="logo">
-          
-            <h1>Gary Blues Dinner</h1>
-          </div>
-          
+        <div >
+          <img src="./image/logo.png" alt="Dish Discovery Logo" width="200" height="150"> <span id="logoWord">Dish Discovery</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" id ="menuLink">Menue</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" id ="orderLink">Order Now</a>
+      </div>
         </nav>
       </div>
     </div>
     <header>
       <div class="header-container">
         <div class="headWrapper">
-          <form action="/submit-order" method="post">
-            <!-- Form groups for each menu item -->
-            <div class="bigGrayContainer">
+          <form id="orderForm" action="/submit-order" method="post">
+           
+            <div class="otherContainer">
+              
               <input type="checkbox" id="bigGray" name="bigGray" />
               <label for="bigGray">Big Gray</label>
               <input type="number" id="bigGrayQuantity" name="bigGrayQuantity" />
               <label for="bigGrayQuantity">Quantity</label>
+            
             </div>
             <div class="otherContainer">
               <input type="checkbox" id="taster" name="taster" />
@@ -61,7 +63,7 @@
               <input type="number" id="saladQuantity" name="saladQuantity" />
               <label for="saladQuantity">Quantity</label>
             </div>
-            <!-- Additional form groups for other items... -->
+          
             <div class="form-group">
               <input type="text" id="name" name="name" /><br />
               <label for="name">Name</label>
@@ -75,18 +77,19 @@
               <label for="card">Card</label>
             </div>
             <br />
-            <div class="form-group">
-            <button type="submit" class="submit-btn">Submit</button>
+            <div class="submit">
+              <button type="submit" id="submit-btn" class="submit-btn2">Submit</button>
+            
             </div>
           </form>
         </div>
-        <!-- Closing wrapper div inside header-container -->
+       
       </div>
-      <!-- Closing header-container div -->
+     
     </header>
   </div>
-  <!-- Closing topContainer div -->
 
-  <script src="./orderJavascript.js"></script>
+
+  <script src="./orderJavascript1.js"></script>
 </body>
 </html>

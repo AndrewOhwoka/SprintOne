@@ -19,7 +19,10 @@ body{
  max-height: 150px; 
  max-width: 1440px;
 }
-
+#logoWord{
+  font-family: 'Inter';
+  font-style: normal;
+}
 header{
     background-image:url(image/BackgroundSalsa.jpg); 
     background-size: 1440px 840px;
@@ -77,9 +80,7 @@ header{
   .otherContainer{
     margin-bottom: 30px;
   }
-  /* .tastersContainer{
-    margin-bottom: 30px;
-  } */
+
   #taster {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -93,9 +94,7 @@ header{
     /* font-size: 20px; Or any other value */
     margin-left: 295px;
   }
-  /* .soupContainer{
-    margin-bottom: 30px;
-  } */
+  
   #soup {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -109,9 +108,7 @@ header{
     /* font-size: 20px; Or any other value */
     margin-left: 300px;
   }
-  /* .poutineContainer{
-    margin-bottom: 30px;
-  } */
+ 
   #poutine {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -126,9 +123,7 @@ header{
     margin-left: 275px;
   }
 
-  /* .bucketContainer{
-    margin-bottom: 30px;
-  } */
+  
   #bucket {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -143,9 +138,7 @@ header{
     margin-left: 160px;
   }
 
-  /* .saladContainer{
-    margin-bottom: 30px;
-  } */
+  
   #salad {
     width: 30px; /* Or any other value */
     height: 30px; /* Or any other value */
@@ -161,24 +154,22 @@ header{
   }
   .form-group {
     margin-left: 250px;
-  }
-  #name {
-    width: 180px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 20px;
-  }
-  #address {
-    width: 180px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 20px;
-  }
-  #card {
-    width: 180px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 20px;
+    margin-bottom: 5px;
   }
   
+  #name, #address, #card {
+  width: 180px; 
+  height: 30px;
+  margin-left: 20px;
+  }
+  .submit {
+    margin-left: 290px;
+    margin-top: -30px;
+  }
+  .submit-btn2 {
+    width: 140px;
+    height: 30px;
+    border-radius: 8px;
 
+    
+  }
