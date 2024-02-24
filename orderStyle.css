@@ -1,235 +1,207 @@
-
-body{
+body {
   font-family: inter;
   font-size: 24px;
   font-weight: 600;
- 
 }
 
-.topContainer{
+.topContainer {
   display: flex;
   flex-direction: column;
-  
- 
-
- 
 }
 
-
-.nav-container{
- background: #D9D9D9;
- max-height: 150px; 
- max-width: 1440px;
+.nav-container {
+  background: #d9d9d9;
+  max-height: 150px;
+  max-width: 1440px;
 }
-#logoWord{
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
+#logoWord {
+  font-family: "Inter";
+  font-style: bold;
+  font-weight: 900;
+  font-size: 32px;
   color: #000000;
   margin-left: -30px;
- 
- 
-
-
+  position: absolute;
+  margin-top: 65px;
 }
-#menuLink{
-  font-family: 'Inter';
+
+#menuLink {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-
-  margin-left: 400px;
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 550px;
   border: green 1px;
   border-radius: 34px;
-  padding: 10px;
+  padding: 15px;
   color: white;
   background-color: green;
   text-decoration: none;
 }
 
-
-#orderLink{
-  font-family: 'Inter';
+#orderLink {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
-
-  margin-left: 100px;
+  position: absolute;
+  margin-top: 55px;
+  margin-left: 800px;
   border: green 1px;
   border-radius: 34px;
-  padding: 10px;
+  padding: 15px;
   color: white;
   background-color: green;
   text-decoration: none;
- 
 }
-header{
-    background-image:url(image/BackgroundSalsa.jpg); 
-    background-size: 1440px 840px;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 840px; 
-    max-width: 1440px;
-   
+header {
+  background-image: url(image/BackgroundSalsa.jpg);
+  background-size: 1440px 840px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 840px;
+  max-width: 1440px;
 }
-.headWrapper{
- 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* padding-left: 464px; */
-    /* padding-top: 76px; */ 
-   
-  
- 
-  
-} 
+.headWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-/* Styling for the header container */
 .header-container {
-    background-color: rgba(89, 158, 197, 0.92); /* Blue background */
-    border-radius: 64px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds some depth*/
-    width: 100%; /*Adjust based on your preference */ 
-    max-width: 1000px;/* Adjust based on your preference */
-    height: 806px;
-    margin: 0 auto;  /*center the container*/
-    display: flex; 
-    flex-direction: column;
+  background-color: rgba(89, 158, 197, 0.92);
+  border-radius: 64px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1000px;
+  height: 806px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 
-  }
-
-  .bigGrayContainer{
-    margin-top: 76px;
-    margin-bottom: 30px;
-  
-  }
-  #bigGray {
-    width: 30px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 20px;
-    
-  }
-  #bigGrayQuantity {
-    width: 80px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 270px;
-  }
-  .otherContainer{
-    margin-bottom: 30px;
-  }
-
-  #taster {
-    width: 30px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 20px;
-    
-  }
-  #tasterQuantity {
-    width: 80px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 295px;
-  }
-  
-  #soup {
-    width: 30px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 20px;
-    
-  }
-  #soupQuantity {
-    width: 80px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 308px;
-  }
- 
-  #poutine {
-    width: 30px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 20px;
-    
-  }
-  #poutineQuantity {
-    width: 80px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 280px;
-  }
-
-  
-  #bucket {
-    width: 30px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 20px;
-    
-  }
-  #bucketQuantity {
-    width: 80px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 162px;
-  }
-
-  
-  #salad {
-    width: 30px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 20px;
-    
-  }
-  #saladQuantity {
-    width: 80px; /* Or any other value */
-    height: 30px; /* Or any other value */
-    /* font-size: 20px; Or any other value */
-    margin-left: 304px;
-  }
-  .form-group {
-    margin-left: 250px;
-    margin-bottom: 5px;
-  }
-  
-  #name, #address, #card {
-  width: 180px; 
+.bigGrayContainer {
+  margin-top: 65px;
+  margin-bottom: 30px;
+}
+#bigGray {
+  width: 30px;
   height: 30px;
   margin-left: 20px;
-
-  }
-  .form-group label[for="name"], 
-.form-group label[for="address"], 
-.form-group label[for="card"] {
-    margin-left: 80px; /* Adjust as needed */
 }
-  .submit {
-    margin-left: 290px;
-    margin-top: -30px;
-  }
-  .submit-btn2 {
-    width: 140px;
-    height: 30px;
-    border-radius: 8px;
-    font-weight: 700;
-    font-size: 24px;
+#bigGrayQuantity {
+  width: 80px;
+  height: 30px;
+  margin-left: 270px;
+}
+.otherContainer {
+  margin-bottom: 30px;
+}
 
-    
-  }
-  .submit-btn2:hover {
-    background-color: green;
-    color: white;
-    
-  }
+#taster {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+#tasterQuantity {
+  width: 80px;
+  height: 30px;
+  margin-left: 295px;
+}
 
+#soup {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+#soupQuantity {
+  width: 80px;
+  height: 30px;
+  margin-left: 308px;
+}
 
+#poutine {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+#poutineQuantity {
+  width: 80px;
+  height: 30px;
+  margin-left: 280px;
+}
 
-  
- 
-  
+#bucket {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+#bucketQuantity {
+  width: 80px;
+  height: 30px;
+  margin-left: 162px;
+}
+
+#salad {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+#saladQuantity {
+  width: 80px;
+  height: 30px;
+  margin-left: 304px;
+}
+.form-group {
+  margin-left: 250px;
+  margin-bottom: 5px;
+}
+
+#name,
+#address,
+#card {
+  width: 180px;
+  height: 30px;
+  margin-left: 20px;
+}
+.form-group label[for="name"],
+.form-group label[for="address"],
+.form-group label[for="card"] {
+  margin-left: 80px;
+}
+.submit {
+  margin-left: 290px;
+  margin-top: -30px;
+}
+.submit-btn2 {
+  width: 140px;
+  height: 30px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 24px;
+}
+.submit-btn2:hover {
+  background-color: green;
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration: none;
+  color: green;
+}
+/* visited link */
+a:visited {
+  color: maroon;
+}
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+/* selected link */
+a:active {
+  color: yellow;
+}
