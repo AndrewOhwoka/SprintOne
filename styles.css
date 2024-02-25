@@ -1,0 +1,177 @@
+body{
+    background-color: beige;
+    }
+
+.company-box {
+position: absolute;
+width: 356px;
+height: 59px;
+left: 165px;
+top: 32px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+color: #478E75;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.logobox{
+position: absolute;
+width: 76px;
+height: 66px;
+border-radius: 60px;
+}
+
+
+
+
+#menu-link{
+    position: absolute;
+    width: 105px;
+    height: 50px;
+    left: 993px;
+    top: 41px;
+    background: #478E75;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+    float:left;
+    width: 61px;
+height: 27px;
+left: 1015px;
+top: 58px;
+    }
+
+
+
+#order-link{
+        position: absolute;
+        width: 140px;
+        height: 50px;
+        left: 1239px;
+        top: 42px;
+        background: #478E75;
+        border-radius: 20px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        float:left;
+        width: 107px;
+        height: 27px;
+        left: 1261px;
+        top: 58px;
+        }
+
+        .mainbox{
+            width: 1000px;
+            height: 700px;
+            
+            }
+            
+
+.topbox{
+width: 1000px;
+height: 700px;
+background-color: purple;
+padding-top: 50px;
+text-align: center;
+margin-bottom: 20px;
+float: left;
+border-radius: 60px;
+margin-left:200px;
+
+}
+
+.topboxtext1{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 58px;
+color: white;
+}
+
+.topboxtext2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 39px;
+color:white;
+
+}
+
+.topboxtext3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    color:white;
+}
+
+.imgbox {
+display: flex;
+align-items: center;
+margin: 40px;
+margin-top: 20px;
+margin-right: 5px;
+float: left;
+}
+
+.topboxtext4{
+
+    margin-left: 190px;
+    text-align:left;
+    color: white;
+    margin-bottom: 20px;
+    float:right;
+
+
+}
+
+
+#additionalInfo{
+
+  max-width: 100%;
+  overflow:auto;
+}
+
+
+
+#additionalInfo {
+  max-width: 100%;
+  overflow: auto;
+}
+
+#additionalInfo h2 {
+  font-size: 24px;
+  color: #d3d3d3;
+  margin-bottom: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#additionalInfo h3 {
+  font-size: 20px;
+  color: #d3d3d3;
+  margin-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#additionalInfo p {
+  font-size: 16px;
+  color: #00FF00;
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+

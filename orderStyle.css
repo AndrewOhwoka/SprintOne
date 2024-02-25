@@ -187,10 +187,15 @@ header {
   color: white;
 }
 
+.menuLink1:hover {
+  background-color: green;
+  color: white;
+}
+
 /* unvisited link */
 a:link {
-  text-decoration:underline;
-  color:blue;
+  text-decoration: underline;
+  color: blue;
 }
 /* visited link */
 a:visited {

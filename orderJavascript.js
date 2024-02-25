@@ -1,3 +1,8 @@
+// Thus, Implemented javascript using DOM manipulation that handle the submit of order form after user clicks on submit
+// The form is submitted only if the user has selected at least one item and entered a quantity greater than 0.
+// The DOM manipulation  uses the element method such as getElementById, querySelector, addEventListener, preventDefault, checked, value, innerHTML, textContent, and alert.
+// The submit line of code at the end is commented out as it is not used in this program, hence the use of console.log.
+
 let form = document.querySelector("#orderForm");
 form.addEventListener("submit", handleSubmit);
 

@@ -1,0 +1,101 @@
+<!--Written by Team4: Benjamin Osemene, Andrew Ohwoka, Shukrullah Zahiri
+Sprint1:February 25, 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Online Page</title>
+  <link rel="stylesheet" href="./orderStyle.css" />
+</head>
+<body>
+
+  <div class="topContainer">
+    <div class="nav-container">
+     
+        <nav>
+        <div >
+          <img src="./image/logo.png" alt="Dish Discovery Logo" width="200" height="150" id="imageOne"> 
+      
+        
+          <span id="logoWord">Dish Discovery</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./menu.html" id ="menuLink" class="menuLink1">Menue</a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="./order.html" id ="orderLink">Order Now</a>
+        
+        </div>
+        </nav>
+      
+    </div>
+    <header>
+      <div class="header-container">
+        <div class="headWrapper">
+          <form id="orderForm" action="/submit-order" method="post">
+           
+            <div class="bigGrayContainer">
+              
+              <input type="checkbox" id="bigGray" name="bigGray" />
+              <label for="bigGray">Big Gray</label>
+              <input type="number" id="bigGrayQuantity" name="bigGrayQuantity" />
+              <label for="bigGrayQuantity">Quantity</label>
+            
+            </div>
+            <div class="otherContainer">
+              <input type="checkbox" id="taster" name="taster" />
+              <label for="taster">Taster</label>
+              <input type="number" id="tasterQuantity" name="tasterQuantity" />
+              <label for="tasterQuantity">Quantity</label>
+            </div>
+            <div class="otherContainer">
+              <input type="checkbox" id="soup" name="soup" />
+              <label for="soup">Soup</label>
+              <input type="number" id="soupQuantity" name="soupQuantity" />
+              <label for="soupQuantity">Quantity</label>
+            </div>
+            <div class="otherContainer">
+              <input type="checkbox" id="poutine" name="poutine" />
+              <label for="poutine">Poutine</label>
+              <input type="number" id="poutineQuantity" name="poutineQuantity" />
+              <label for="poutineQuantity">Quantity</label>
+            </div>
+            <div class="otherContainer">
+              <input type="checkbox" id="bucket" name="bucket" />
+              <label for="bucket">Bucket o' Chicken</label>
+              <input type="number" id="bucketQuantity" name="bucketQuantity" />
+              <label for="bucketQuantity">Quantity</label>
+            </div>
+            <div class="otherContainer">
+              <input type="checkbox" id="salad" name="salad" />
+              <label for="salad">Salad</label>
+              <input type="number" id="saladQuantity" name="saladQuantity" />
+              <label for="saladQuantity">Quantity</label>
+            </div>
+          
+            <div class="form-group">
+              <input type="text" id="name" name="name" /><br />
+              <label for="name">Name</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="address" name="address" /><br />
+              <label for="address">Address</label><br />
+            </div>
+            <div class="form-group">
+              <input type="text" id="card" name="card" /><br />
+              <label for="card">Card</label>
+            </div>
+            <br />
+            <div class="submit">
+              <button type="submit" id="submit-btn" class="submit-btn2">Submit</button>
+            
+            </div>
+          </form>
+        </div>
+       
+      </div>
+     
+    </header>
+  </div>
+
+
+  <script src="./orderJavascript.js"></script>
+</body>
+</html>
