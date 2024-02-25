@@ -189,8 +189,8 @@ header {
 
 /* unvisited link */
 a:link {
-  text-decoration: none;
-  color: green;
+  text-decoration:underline;
+  color:blue;
 }
 /* visited link */
 a:visited {
